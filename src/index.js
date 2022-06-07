@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+//import { CallbackHook } from './components/06-memos/CallbackHook';
+import { Padre } from './components/07-tarea-memo/Padre';
+//import { MemoHook } from './components/06-memos/MemoHook';
 //import { LayoutEffect } from './components/05-useLayOutEffect/LayoutEffect';
-import { Memorize } from './components/06-memos/Memorize';
+//import { Memorize } from './components/06-memos/Memorize';
 //import { RealExampleRef } from './components/04-useRef/RealExampleRef';
 //import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks';
 //import { FocusScreen } from './components/04-useRef/FocusScreen';
@@ -12,7 +15,9 @@ import { Memorize } from './components/06-memos/Memorize';
 //import { HooksApp } from './HooksApp';
 
 
+
+
 import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Memorize />);
+root.render(<Padre />);
 
